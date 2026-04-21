@@ -1,0 +1,56 @@
+.sidebar {
+  width: 220px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #1f2937, #111827);
+  color: #e5e7eb;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* TITLE */
+.sidebar-title {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding-left: 5px; /* align with buttons */
+}
+
+/* MENU WRAPPER */
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* BUTTON */
+.sidebar-btn {
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: none;
+  color: #d1d5db;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: block; /* important */
+}
+
+/* HOVER */
+.sidebar-btn:hover {
+  background: #2563eb;
+  color: white;
+  transform: translateX(4px);
+}
+
+/* LOGOUT */
+.logout {
+  margin-top: auto;
+  color: #f87171;
+}
+
+.logout:hover {
+  background: #dc2626;
+  color: white;
+}
